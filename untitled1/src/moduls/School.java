@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class School {
     private ArrayList<Person> members;
 
-    public School() {  // Optional if you want to initialize members in the constructor
+    public School() {  
         members = new ArrayList<>();
     }
 
