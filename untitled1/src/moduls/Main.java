@@ -9,11 +9,11 @@ public class Main {
     public static void main(String[] args) {
         School school = new School();
 
-        // Load students and teachers from respective files
+        
         loadStudents(school);
         loadTeachers(school);
 
-        // Output school information
+        
         System.out.println(school);
         printStudentGPA(school);
         adjustTeacherSalary(school);
