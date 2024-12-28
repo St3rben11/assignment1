@@ -30,7 +30,7 @@ public class Teacher extends Person {
     }
 
     public void giveRaise(int percentage) {
-        // inputs 10% as 10 and is converted to 0.1
+        
         this.salary += salary * percentage / 100.0;
     }
 
